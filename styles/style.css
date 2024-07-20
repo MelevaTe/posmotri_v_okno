@@ -53,15 +53,13 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  margin: 133px 30px;
+  margin: 0 30px;
   inline-size: 1140px; 
 }
 
 .result {
     padding-block-start: 78px;
     inline-size: 711px;
-    block-size: 456px;
-
 }
 
 .result__video-container {
@@ -164,6 +162,7 @@ ol {
   font-size: inherit;
   background-color: transparent;
   cursor: pointer;
+  min-block-size: 34px;
 
   &:hover {
     text-decoration: underline;
@@ -186,7 +185,6 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   min-inline-size: 194px;
-  min-block-size: 34px;
 }
 
 .content__details {
